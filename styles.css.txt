@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+  background: #f5f8fa;
+  color: #222;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  user-select: text;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  user-select: text;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: 30px 0;
+  background: #d9e6f2;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+footer {
+  margin: 40px 0 20px;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.editable {
+  outline: 2px dashed transparent;
+  cursor: text;
+  transition: outline-color 0.3s ease;
+}
+
+.editable:focus {
+  outline-color: #4a90e2;
+  background-color: #eef6fc;
+}
+
+#saveBtn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgb(74 144 226 / 0.6);
+  user-select: none;
+}
+
+#saveBtn:hover {
+  background-color: #357abd;
+}
