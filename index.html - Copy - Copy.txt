@@ -1,0 +1,29 @@
+<section id="players">
+  <h2>🏐 Our Volleyball Players</h2>
+
+  <div class="players">
+    <div class="player-card">
+      <img src="images/player1.jpg" alt="Player 1">
+      <h3>Bharat Jaisi</h3>
+      <p>Captain</p>
+    </div>
+
+    <div class="player-card">
+      <img src="images/player2.jpg" alt="Player 2">
+      <h3>Shusil KC</h3>
+      <p>Spiker</p>
+    </div>
+
+    <div class="player-card">
+      <img src="images/player3.jpg" alt="Player 3">
+      <h3>Narayan Khatri</h3>
+      <p>Libero</p>
+    </div>
+
+    <div class="player-card">
+      <img src="images/player4.jpg" alt="Player 4">
+      <h3>Surendra Jaisi</h3>
+      <p>Blocker</p>
+    </div>
+  </div>
+</section>

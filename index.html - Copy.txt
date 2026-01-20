@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Real Managhat Volleyball Team</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1 contenteditable="true" spellcheck="false" class="editable">Real Managhat Volleyball Team</h1>
+    <nav>
+      <a href="#" contenteditable="true" spellcheck="false" class="editable">Home</a>
+      <a href="#" contenteditable="true" spellcheck="false" class="editable">About</a>
+      <a href="#" contenteditable="true" spellcheck="false" class="editable">Players</a>
+      <a href="#" contenteditable="true" spellcheck="false" class="editable">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2 contenteditable="true" spellcheck="false" class="editable">Welcome to Real Managhat Volleyball Team</h2>
+    <p contenteditable="true" spellcheck="false" class="editable">
+      This is the official website of the Real Managhat Volleyball Team.
+    </p>
+  </section>
+
+  <footer>
+    <p contenteditable="true" spellcheck="false" class="editable">© 2026 Real Managhat Volleyball Team</p>
+  </footer>
+
+  <button id="saveBtn" title="Save your edits as HTML">💾 Save Edits</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
